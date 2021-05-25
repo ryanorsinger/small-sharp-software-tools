@@ -1,0 +1,20 @@
+pwd
+
+then
+cd ~/
+pwd
+
+then 
+echo $OLDPWD
+cd $OLDPWD
+pwd
+echo $OLDPWD
+
+cat /usr/share/dict/words
+head /usr/share/dict/words
+head -n 3 /usr/share/dict/words
+tail -n 7 /usr/share/dict/words
+
+ps -ef > processes.txt
+ps -ef | tail
+ps -ef | head

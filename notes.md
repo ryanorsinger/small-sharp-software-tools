@@ -1,18 +1,18 @@
 ##Commands 
-cd
-pwd
-echo
-echo hello > greetings.txt
-cat
-less/more
-ps -ef
-clear
-reset
-mkdir
-curl
-which
-man
-history
+- `ps -ef` show all the running processes
+- `cd`
+- `pwd`
+- `echo`
+- `echo hello > greetings.txt`
+- `cat`
+- `less/more`
+- `clear`
+- `reset`
+- `mkdir`
+- `curl`
+- `which`
+- `man`
+- `history`
 
 
 ## Vocabulary
@@ -55,3 +55,21 @@ ctrl + u
 history > history.txt
 curl -O https://media.pragprog.com/titles/bhcldev/code/bhcldev-code.zip then unzip bhcldev-code.zip
 
+
+## Things to know
+- `history > history.txt` writes the history.txt file w/ the contents of the history command
+- `echo "hello" > hello.txt` creates or overwrites the file
+- `echo "hello" >> hello.txt` creates or appends to the end of the file
+- `ls -l > list.txt` creates a file named `list.txt` with the contents of the current working directory
+
+
+
+
+
+
+## Big Lessons (to teach through repetition)
+- "As you work on the command line, you’ll find yourself taking the output of one program and sending it off to another program, which will then output something new." - Brian P. Hogan
+- When the terminal does what it's told without error, you will often NOT get a notification. The command runs.
+- Workflow
+	- Relative vs. absolute paths
+	- tab autocomplete
